@@ -1,0 +1,195 @@
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+header {
+    position:fixed ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 5vh;
+    background-color: rgb(39, 18, 18);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2rem;
+   
+    
+    
+    
+} 
+.search{
+    border-radius: 2rem;
+}
+.search-btn{
+    background-color:blue;
+    color: white;
+    border-radius: 0.5rem;
+    
+}
+.left {
+   
+    color: white;
+}
+ nav ul {
+    display: flex;
+    justify-content: center;
+ 
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+    color: white;
+
+    
+} 
+.right a {
+    color: white;
+ 
+}
+ .home{
+    color:white;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=900&t=st=1689068061~exp=1689068661~hmac=5db58ddfa740027c863e5392bc17b709e47e3f590bf436129d6c59b7b86f9e86");
+    background-color: rgb(18, 28, 24);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0%;
+    
+   
+
+}
+.homeinfo{
+    font-size: 5rex ;
+}
+ .aboutbtn {
+    align-items: center;
+}
+.about {
+    background-color: rgb(218, 231, 231);
+    height: 100vh;
+
+}
+.aboutme {
+   padding-top: 6rem;
+}
+
+.fa-thin {
+    font-size: large;
+}
+.img{
+    width: 50%;
+    height:50%;
+    margin-left: 15rem;
+    
+}
+.me {
+    text-align: center;
+    height: 110vh;
+    width: 60vb;
+    margin-top: 1rem;
+    border-color: blue  ;
+    object-fit: cover;
+
+   
+}
+.aboutinfo {
+    margin-top:5rem;
+    align-items: start;
+}
+
+.me:hover{
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    
+}
+.skills {
+    text-align: center;
+    background-color: rgb(118, 178, 221);
+    padding: 1rem;
+}
+.skillsinfo {
+    height: 50vh;
+    font-size: large;
+    border: 15px solid rgb(62, 42, 151);
+    padding: 80px;
+    margin: 30px;
+    padding: auto;
+    background-color: rgb(239, 232, 223);
+    justify-content: space-between;
+    text-align: center;
+    
+    
+    
+}
+.education {
+    text-align: center;
+    background-color: aqua;
+    
+}
+.educationinfo {
+    width: 100%;
+    text-align: start;
+}
+.eduimg {
+    width: 50%; 
+    align-items: end;
+    display: flex;
+
+ 
+    
+}
+.contact {
+    background-color: cadetblue;
+    height: 100vh;
+    border: 15px solid blue;
+}
+
+
+.contactimg {
+   align-items: center;
+   height: vh;
+   padding: 3rem;
+
+}
+.form-control {
+   width: 20rem;   
+    
+}
+.alert {
+            border: 0rem;
+            border-color: cadetblue;
+            height: 5rem;
+            width: 20rem;
+            display: flex;
+}
+footer {
+    background-color: rgb(58, 19, 19);
+}
+.footinfo{
+    color: white;
+  margin-top: 2rem;
+  margin: 1rem;
+}
+.footui{
+    list-style: none;
+    color: white;
+}
+.design{
+    align-items: center;
+    text-align: center;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
